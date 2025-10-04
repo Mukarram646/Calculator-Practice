@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <Table id="table">
+        <tr>
+            <td class="result_box" colspan="4">
+                <input id="my_screen">
+            </td>
+        </tr>
+        <tr>
+            
+            <td onclick="Clear_all()" id="Clear_btn" colspan="2">C</td>
+            <td onclick="del()"><i class="fa-solid fa-delete-left"></i></td>
+            <td onclick="Enter_no('*')" class="oper"> x</td>
+        </tr>
+        <tr>
+
+            <td onclick="Enter_no('7')"> 7</td>
+            <td onclick="Enter_no('8')"> 8</td>
+            <td onclick="Enter_no('9')"> 9</td>
+            <td onclick="Enter_no('/')" class="oper"> /</td>
+
+        </tr>
+        <tr>
+
+            <td onclick="Enter_no('4')"> 4</td>
+            <td onclick="Enter_no('5')"> 5</td>
+            <td onclick="Enter_no('6')"> 6</td>
+            <td onclick="Enter_no('+')" class="oper"> +</td>
+
+
+
+
+
+        </tr>
+        <tr>
+
+            <td onclick="Enter_no('1')"> 1</td>
+            <td onclick="Enter_no('2')"> 2</td>
+            <td onclick="Enter_no('3')"> 3</td>
+            <td onclick="Enter_no('-')" class="oper"> -</td>
+
+
+            </th>
+        </tr>
+        <tr>
+
+            <td onclick="Enter_no('0')"> 0</td>
+            <td onclick="Enter_no('00')">00</td>
+            <td onclick="Enter_no('.')"> .</td>
+            <td onclick="my_Cal_result()" id="equal" rowspan="1"> =</td>
+
+        </tr>
+
+    </Table>
+
+
+    <script src="./practice.js"></script>
+
+
+
+
+</body>
+
+</html>
